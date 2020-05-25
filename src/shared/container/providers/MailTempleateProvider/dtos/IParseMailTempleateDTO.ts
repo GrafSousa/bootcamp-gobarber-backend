@@ -3,6 +3,6 @@ interface ITempleateVariables {
 }
 
 export interface IParseMailTempleateDTO {
-  template: string;
+  file: string;
   variables: ITempleateVariables;
 }
